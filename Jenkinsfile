@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'mvn'
+        localmvm 'mvn'
     }
     stages {
         stage ('Build Servlet Project') {
